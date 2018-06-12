@@ -1,0 +1,1 @@
+# Custom-adapter-with-Recycler-View-with-onclick-event
