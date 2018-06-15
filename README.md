@@ -34,7 +34,7 @@ Basic Steps
       
    ->onBindViewHolder()
       
-        set values to the controls of view with help of helper class and model class's object
+       set values to the controls of view with help of helper class and model class's object
        
  5)Activity or fragmnet
  
