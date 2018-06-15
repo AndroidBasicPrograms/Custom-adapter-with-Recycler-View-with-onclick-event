@@ -95,7 +95,7 @@ public class userDrawerActivity extends AppCompatActivity implements NavigationV
 
         } else if(id == R.id.nav_logout)
         {
-            logout();
+            
         }
         if(f!=null)
         {
@@ -106,13 +106,5 @@ public class userDrawerActivity extends AppCompatActivity implements NavigationV
         return true;
     }
 
-    private void logout() {
-        SharedPreferences s=getSharedPreferences("loginData",MODE_PRIVATE);
-        SharedPreferences.Editor e=s.edit();
-        e.remove("id");
-        e.commit();
-        Intent i=new Intent(this,MainActivity.class);
-        startActivity(i);
-        finish();
-    }
+  
 }
